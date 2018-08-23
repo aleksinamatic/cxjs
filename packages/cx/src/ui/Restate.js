@@ -131,3 +131,5 @@ class RestateStore extends Store {
          this.store.notify();
    }
 }
+
+export class PrivateState extends Restate {};
